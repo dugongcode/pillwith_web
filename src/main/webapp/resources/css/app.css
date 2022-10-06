@@ -1,0 +1,71 @@
+@font-face{
+   font-family:"basic";
+   font-style:normal;
+   src:url(../fonts/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face{
+   font-family:"black";
+   font-style:normal;
+   src:url(../fonts/NotoSansKR-Black.otf) format('opentype');
+}
+
+
+html, body{
+	padding:0;
+	margin:0;
+	font-size:14px !important;
+	background:#fff;
+	font-family:basic;
+}
+
+
+
+.w-small{
+	width:100%;
+}
+
+.w-large{
+	width:100%;
+}
+
+#page-body{
+	padding-top:70px;
+	margin:0 auto;
+	background:#fff;
+	color:#585858;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+
+
+h3{
+	font-family:black;
+	font-weight:900;
+	color:#222;
+	margin-bottom:30px;
+}
+
+table{
+	font-size:14px;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#585858;
+}
+
+
+
+
+
+
+
+
+
+
+
+
