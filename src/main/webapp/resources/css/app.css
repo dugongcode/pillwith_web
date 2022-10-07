@@ -62,6 +62,19 @@ a{
 
 
 
+.div-with-border{
+	padding:6px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	font-weight:700;
+	margin:16px 0;
+}
+
+
+.div-with-border > span:nth-child(1){
+	margin-right:20px;
+}
+
 
 
 

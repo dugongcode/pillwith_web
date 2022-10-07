@@ -12,8 +12,14 @@ public class HomeController {
 	@RequestMapping(value = "/user-policy", method = RequestMethod.GET)
 	public String home() {
 		
-	
 		return "user-policy";
+	}
+	
+	@RequestMapping(value = "/user-data-policy", method = RequestMethod.GET)
+	public String homed() {
+		
+	
+		return "user-data-policy";
 	}
 	
 }

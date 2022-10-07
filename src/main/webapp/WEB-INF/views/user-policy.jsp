@@ -44,7 +44,7 @@
 		</table>
 		
 		<div style="margin-top:50px;">
-			<a href="https://www.naver.com/">
+			<a href="./user-data-policy">
 				자세한 내용은 개인정보처리방침(링크)을 확인해주세요.
 			</a>
 			<br/><br/><br/>
