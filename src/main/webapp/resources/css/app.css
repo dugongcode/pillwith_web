@@ -17,6 +17,7 @@ html, body{
 	font-size:14px !important;
 	background:#fff;
 	font-family:basic;
+	overflow-x: hidden;
 }
 
 

@@ -15,11 +15,25 @@ public class HomeController {
 		return "user-policy";
 	}
 	
-	@RequestMapping(value = "/user-data-policy", method = RequestMethod.GET)
-	public String homed() {
+	@RequestMapping(value = "/user-policy-detail", method = RequestMethod.GET)
+	public String upde() {
 		
 	
-		return "user-data-policy";
+		return "user-policy-detail";
+	}
+	
+	
+	@RequestMapping(value = "/sensitive-policy", method = RequestMethod.GET)
+	public String sensitive() {
+		
+		return "sensitive-policy";
+	}
+	
+	@RequestMapping(value = "/sensitive-policy-detail", method = RequestMethod.GET)
+	public String sensitivede() {
+		
+	
+		return "sensitive-policy-detail";
 	}
 	
 }
