@@ -23,6 +23,13 @@ public class HomeController {
 	}
 	
 	
+	@RequestMapping(value = "/app-policy", method = RequestMethod.GET)
+	public String appp() {
+		
+	
+		return "app-policy";
+	}
+	
 	@RequestMapping(value = "/sensitive-policy", method = RequestMethod.GET)
 	public String sensitive() {
 		
