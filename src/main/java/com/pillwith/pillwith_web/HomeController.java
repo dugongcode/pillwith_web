@@ -9,6 +9,21 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 	
 	
+	
+	
+	@RequestMapping(value = "/simple-authentication-policy", method = RequestMethod.GET)
+	public String simpleauthenticationpolicy() {
+		
+		return "simple-authentication-policy";
+	}
+	
+	@RequestMapping(value = "/third-party-consent", method = RequestMethod.GET)
+	public String thirdpartyconsent() {
+		
+		return "third-party-consent";
+	}
+	
+	
 	@RequestMapping(value = "/user-policy", method = RequestMethod.GET)
 	public String home() {
 		
